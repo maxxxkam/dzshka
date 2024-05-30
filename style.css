@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 300px;
+    gap: 60px;
+  }
+  
+  
+  
+  img {
+    width: 300px;
+    height: 250px;
+    }
+  
+  .b:hover{
+     transform: skew(-69deg);
+     transition: 1s;
+    
+  }
+  
+  .w:hover{
+     transform: scale(190%);
+     transition: 2s;
+     border: 1px solid;
+  }
+  
+  .q:hover{
+    transform: rotate(73deg);
+    transition: 1s;
+  }
+  .t:hover{
+    transform: translate(-100px, 300px);
+    transition: 1s;
+ 
+  }
